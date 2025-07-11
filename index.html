@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KAPT A.I - MK PMTTD Smart Assistant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 30px;
+            font-size: 2em;
+            color: #00ffe7;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin: 10px 20px;
+            max-width: 800px;
+        }
+
+        #agent {
+            margin-top: 20px;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 10px;
+            font-size: 0.8em;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Selamat Datang ke Stesen Pintar MK PMTTD</h1>
+    <p>Saya <strong>KAPT A.I</strong>, pembantu maya rasmi Markas Pemerintahan Medan Timur Tentera Darat.<br>
+    Sedia membantu Tuan/Puan dalam memahami teknologi AI, menjawab soalan berkaitan Akta Angkatan Tentera 1972,<br>
+    dan mengumpul maklum balas melalui kaji selidik interaktif ini.</p>
+
+    <div id="agent">
+        <script type="module"
+            src="https://agent.d-id.com/v2/index.js"
+            data-mode="fabio"
+            data-client-key="Z29vZ2xlLW9hdXRoMnwxMDA4NzI4MTUzNTMwNjY4MjI3OTI6SFNnU3JVVlE2Y2xfY0ZoX1dwcGk1"
+            data-agent-id="v2_agt_xtzg72Zt"
+            data-name="did-agent"
+            data-monitor="true"
+            data-orientation="horizontal"
+            data-position="right">
+        </script>
+    </div>
+
+    <div class="footer">
+        © 2025 Markas Pemerintahan Medan Timur Tentera Darat. Dikuasakan oleh KAPT A.I
+    </div>
+</body>
+</html>
